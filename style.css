@@ -42,8 +42,11 @@ body{
 
 
 .header-logo-text{
+    display: flex;
     font-size: 24px;
     font-style: bold;
+    min-height: 100px;
+    align-items: center;
 }
 
 a{
@@ -64,4 +67,32 @@ a{
 
 .left-hero h1{
     font-size: 48px;
+}
+
+.information, .information-image{
+    display: flex;
+    justify-content: center;
+
+}
+
+.information{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+
+.information-image{
+    gap: 50px;
+}
+
+.container-image, .container-image img{
+    max-width: 300px;
+}
+
+.container-image img{
+    border: solid lightblue;
+    border-radius: 20px;
 }
