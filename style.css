@@ -89,14 +89,44 @@ a{
 
 .information-image{
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .container-image, .container-image img{
     max-width: 300px;
+    font-size:20px;
 }
 
 .container-image img{
     border: solid lightblue;
     border-radius: 20px;
 }
+
+
+.container-quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    min-height: 300px;
+
+}
+
+.quotes-size{
+    max-width: 800px;
+}
+
+.quotes{
+    font-family: light italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 5px 0px;
+}
+
+.names{
+    color: #1F2937;
+    font-size: 24px;
+    text-align: end;
+    margin: 0;
+}
+
