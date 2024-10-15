@@ -1,5 +1,6 @@
 img{
     max-height: 300px;
+    max-width: 500px;
 }
 
 h1{
@@ -29,11 +30,11 @@ body{
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 18px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
-    padding-left: 500px;
-    padding-right: 1000px;
+    padding-bottom: 50px;
+    gap: 500px;
+ 
 }
 
 .hero{
@@ -46,6 +47,7 @@ body{
     font-size: 24px;
     font-style: bold;
     min-height: 100px;
+    min-width: 500px;
     align-items: center;
 }
 
@@ -56,6 +58,7 @@ a{
 
 .container-right-header{
     display: flex;
+    min-width: 500px;
     gap: 25px;
 }
 
@@ -86,6 +89,7 @@ a{
 
 .information-image{
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .container-image, .container-image img{
