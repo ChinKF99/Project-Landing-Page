@@ -130,3 +130,36 @@ a{
     margin: 0;
 }
 
+.signup{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.signup-container{
+    display: flex;
+    max-width: 1200px;
+    max-height: 200px;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 10px;
+    color: white;
+    gap: 50px;
+    margin:auto;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.signup-container p{
+    margin: 0;
+}
+
+.call{
+ font-weight: bold;
+ font-size: 30px;
+}
+.signup-container button{
+    border-radius: 10px;
+    padding: 10px;
+    border: white solid;
+}
