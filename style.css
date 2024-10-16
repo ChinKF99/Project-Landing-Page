@@ -22,7 +22,8 @@ body{
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
+    margin: 0px;
+    justify-content: space-between;
 }
 
 .header, .hero{
@@ -157,8 +158,19 @@ a{
  font-weight: bold;
  font-size: 30px;
 }
+
 .signup-container button{
     border-radius: 10px;
     padding: 10px;
     border: white solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
 }
